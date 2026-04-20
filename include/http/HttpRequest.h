@@ -10,7 +10,7 @@ namespace http{
 class HttpRequest{
 public:
     enum Method{
-        kInvalid, kGet, kPost, kHead, kDelete, kOptions
+        kInvalid, kGet, kPost, kHead, kPut, kDelete, kOptions
     };
 
     HttpRequest():
