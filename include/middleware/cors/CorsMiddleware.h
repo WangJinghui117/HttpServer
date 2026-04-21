@@ -23,7 +23,7 @@ public:
 private:
     bool isOriginAllowed(const string& origin) const;
     void handlePreflightRequest(const HttpRequest& request, HttpResponse& response);
-    void addCorsHeaders(HttpRequest& response, const string& origin);
+    void addCorsHeaders(HttpResponse& response, const string& origin);
 
 
 private:

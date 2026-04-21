@@ -31,7 +31,7 @@ public:
 
 private:
     string generateSessionId();
-    string getSessionIdFromCookie(const HttpRequest* req);
+    string getSessionIdFromCookie(const HttpRequest& req);
     void setSessionCookie(const string& sessionId, HttpResponse* resp);
 
 

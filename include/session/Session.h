@@ -21,6 +21,7 @@ public:
     }
 
     bool isExpired() const;
+    void refresh();
 
     void setManager(SessionManager* sessionManager){
         sessionManager_ = sessionManager;
